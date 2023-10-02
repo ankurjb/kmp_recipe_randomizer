@@ -1,5 +1,7 @@
 package model
 
+import kotlinx.serialization.Serializable
+
 sealed class MealTime(val name: String) {
     data class Breakfast(
         val recipes: List<Recipe>
@@ -14,11 +16,7 @@ sealed class MealTime(val name: String) {
     ) : MealTime("Dinner")
 }
 
-data class Meal(
-    val name: String,
-    val recipes: List<Recipe>
-)
-
+@Serializable
 data class Recipe(
     val recipeImage: String,
     val recipeName: String,
@@ -26,6 +24,7 @@ data class Recipe(
     val dayOfTheWeek: Int,
     val cookingTime: CookingTime
 ) {
+    @Serializable
     data class Ingredients(
         val stepCount: String? = null,
         val name: String,
@@ -34,6 +33,7 @@ data class Recipe(
         val instruction: String? = null
     )
 
+    @Serializable
     data class CookingTime(
         val preparationTime: Byte,
         val cookingTime: Byte
