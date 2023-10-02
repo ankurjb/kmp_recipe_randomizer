@@ -1,0 +1,26 @@
+[
+	{
+		"meal_name" : "Breakfast",
+		"recipe": {
+			"recipe_name": "Lemon Rice",
+			"recipe_image": "https://res.cloudinary.com/dgakjrw8j/image/upload/w_250,c_fill/v1670851735/Lemon%20Rice/lemon_rice_front_r41wg2.webp",
+			"preparationTime": ""
+		}
+	},
+	{
+		"meal_name" : "Lunch",
+		"recipe": {
+			"recipe_name": "Lemon Rice",
+			"recipe_image": "https://res.cloudinary.com/dgakjrw8j/image/upload/w_250,c_fill/v1670851735/Lemon%20Rice/lemon_rice_front_r41wg2.webp",
+			"preparationTime": ""
+		}
+	},
+	{
+		"meal_name" : "Dinner",
+		"recipe": {
+			"recipe_name": "Lemon Rice",
+			"recipe_image": "https://res.cloudinary.com/dgakjrw8j/image/upload/w_250,c_fill/v1670851735/Lemon%20Rice/lemon_rice_front_r41wg2.webp",
+			"preparationTime": ""
+		}
+	}
+]
